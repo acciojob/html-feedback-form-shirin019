@@ -8,16 +8,15 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>HTML Feedback Form</h1>
+	<h2>Feedback Form</h2>
 	<form>
 		<label for="name">Name</label>
-		<input id="name" type="text" name="name">
+		<input id="name" type="text" name="name" minLength="3" maxlength="50">
 		<label for="portfolio">Portfolio</label>
 		<input id="portfolio" type="url" name="portfolio">
 		<label for="favColor">Favcolor</label>
-       <input type="color" id="favColor" name="favColor" value="#ff0000"><br><br>
-		<div class="slidecontainer">
-        <label for="likeness">Likeness</label>
+         <input type="color" id="favColor" name="favColor" value="#ff0000"><br><br>
+		 <label for="likeness">Likeness</label>
        <input type="range" min="1" max="100" value="50" id="likeness">
 
 	</form>
